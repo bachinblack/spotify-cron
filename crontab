@@ -1,0 +1,35 @@
+# Comme un lundi
+30 9 * * 1 spotify-cron play motivation
+30 11 * * 1 spotify-cron play anime
+30 14 * * 1 spotify-cron play pop
+0 18 * * 1  spotify-cron play métal
+0 21 * * 1  spotify-cron stop
+
+# à l'ancienne
+30 9 * * 2  spotify-cron play classique
+30 11 * * 2  spotify-cron play anime
+30 14 * * 2  spotify-cron play lofi
+0 18 * * 2  spotify-cron play rétro
+0 21 * * 2  spotify-cron stop
+
+# On lache rien
+30 9 * * 3 spotify-cron play motivation
+30 11 * * 3 spotify-cron play anime
+30 14 * * 3 spotify-cron play lofi
+0 18 * * 3  spotify-cron play pop
+0 21 * * 3  spotify-cron stop
+
+# Dans ma bulle
+30 9 * * 4  spotify-cron play classique
+30 11 * * 4  spotify-cron play anime
+30 14 * * 4  spotify-cron play lofi
+0 18 * * 4  spotify-cron play rétro
+0 21 * * 4  spotify-cron stop
+
+# Presque comme un lundi
+30 9 * * 5  spotify-cron play motivation
+30 11 * * 5  spotify-cron play anime
+30 14 * * 5  spotify-cron play lofi
+0 18 * * 5  spotify-cron play métal
+0 21 * * 5  spotify-cron stop
+
